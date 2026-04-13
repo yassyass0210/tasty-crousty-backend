@@ -6,13 +6,9 @@
       "maxDuration": 30
     }
   },
-  "env": [
-    "STRIPE_SECRET_KEY",
-    "STRIPE_PUBLIC_KEY",
-    "STRIPE_WEBHOOK_SECRET",
-    "MONGODB_URI",
-    "EMAIL_USER",
-    "EMAIL_PASSWORD",
-    "FRONTEND_URL"
-  ]
+  "env": {
+    "STRIPE_SECRET_KEY": "@stripe_secret_key",
+    "MONGODB_URI": "@mongodb_uri",
+    "NODE_ENV": "@node_env"
+  }
 }
