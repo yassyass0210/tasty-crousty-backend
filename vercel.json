@@ -1,0 +1,18 @@
+{
+  "buildCommand": "npm install",
+  "functions": {
+    "api/index.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    }
+  },
+  "env": [
+    "STRIPE_SECRET_KEY",
+    "STRIPE_PUBLIC_KEY",
+    "STRIPE_WEBHOOK_SECRET",
+    "MONGODB_URI",
+    "EMAIL_USER",
+    "EMAIL_PASSWORD",
+    "FRONTEND_URL"
+  ]
+}
